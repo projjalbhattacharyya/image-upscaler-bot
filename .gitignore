@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Model files and large binaries
+models/
+*.pth
+*.pt
+*.h5
+BSRGAN/
+
+# Temporary and output directories
+temp/
+*.log
+
+# System/IDE files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python wheel files
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints (in case you add .ipynb files later)
+.ipynb_checkpoints/
+
+# Cache
+*.cache
+*.bak
+*.tmp
+
